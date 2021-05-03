@@ -1,0 +1,86 @@
+body, html{
+  height:100%;
+  margin:0;
+ 
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+  background-color: black;
+}
+ .navbar{
+	 width: 85%;
+	 display: flex;
+	 align-items:center;
+	 margin: auto;
+	 padding: 15px 0;
+	 justify-content: space-between;
+	 /* background-color: grey; */
+	 
+ }
+.logo{
+	font-family: 'Karantina', cursive;
+	 font-size: 46px;
+	 cursor:pointer;
+	 color: white;
+	
+ }
+ nav{
+	 flex:1;
+	 text-align: right;
+ }
+ nav ul li{
+	 list-style: none;
+	 display: inline-block;
+	 margin-right: 30px;
+ }
+ nav ul li a{
+	 font-family: 'Karantina', cursive;
+	 text-decoration: none;
+	 color: white;
+	 font-size: 36px;
+	 text-transform: uppercase;
+ }
+  nav ul li a:hover{
+	 color: red;
+ }
+
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url('b4.jpg');
+  min-height:100%;
+}
+
+.pimg2{
+  background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url('b5.jpg');
+  min-height:100%;
+}
+
+
+
+.ptext{
+  position:absolute;
+  top:25%;
+  width:100%;
+  text-align:center;
+  color:white;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+.boxed {
+  background-color: black;
+  width: 50%;
+  border: 3px solid white;
+  padding: 20px;
+  margin: auto;
+} 
+.boxed p{
+	font-size: 17px;
+}
